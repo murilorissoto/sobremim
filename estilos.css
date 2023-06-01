@@ -1,0 +1,83 @@
+.button a{
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:  #9AC6C5;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+  }
+
+  button a:hover{
+    background: #ddd;
+    color: #a5e6ba;
+}
+
+.user-card img{
+    padding: 120px;  
+    border-radius: 50%;  
+}
+
+body{
+
+    background-color: #a5e6ba;
+    text-align: center;
+    font-size: medium;
+    font: 12px Verdana, sans-serif;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a5e6ba ;
+    color: #a5e6ba;
+    text-align: right;
+}
+
+.sobremim{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9AC6C5;
+    border: 1px solid black;
+}
+body{
+    background-color: #a5e6ba;
+}
+
+a { text-align: left;} 
+
+u { color: blue;}
+
+.navbar {
+    overflow: hidden;
+    background-color: #D3D3D3;
+    bottom: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 15%; /* Full width */
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .main {
+    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+  }
+  
+  h1{color: white;}
